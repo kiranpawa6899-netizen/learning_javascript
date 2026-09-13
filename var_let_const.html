@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <script>//global scope
+        var fname ="kiran";
+        var fname ="rahul" //rediclare allowed
+        fname = "om"; //reassign allowed
+        document.write(fname + "<br>");
+       </script>
+    <script>
+       //block scope
+       let lname="pawar";
+       //let lname="jadhav"; //rediclare not allowed
+       let lname="ogale";//reassign allowed
+    </script>
+
+    <script>
+       //block scope
+       const lname="pawar";
+       const lname="jadhav"; //rediclare not allowed
+       const lname="ogale";//reassign allowed
+    </script>
+
+</body>
+</html>
